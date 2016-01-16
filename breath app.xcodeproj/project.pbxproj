@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE390F471C4AE7F50077C62F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F461C4AE7F50077C62F /* main.m */; };
+		FE390F4A1C4AE7F50077C62F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F491C4AE7F50077C62F /* AppDelegate.m */; };
+		FE390F4D1C4AE7F50077C62F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F4C1C4AE7F50077C62F /* ViewController.m */; };
+		FE390F501C4AE7F50077C62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE390F4E1C4AE7F50077C62F /* Main.storyboard */; };
+		FE390F521C4AE7F50077C62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE390F511C4AE7F50077C62F /* Assets.xcassets */; };
+		FE390F551C4AE7F50077C62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE390F531C4AE7F50077C62F /* LaunchScreen.storyboard */; };
+		FE390F601C4AE7F50077C62F /* breath_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F5F1C4AE7F50077C62F /* breath_appTests.m */; };
+		FE390F6B1C4AE7F50077C62F /* breath_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F6A1C4AE7F50077C62F /* breath_appUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE390F5C1C4AE7F50077C62F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE390F3A1C4AE7F50077C62F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE390F411C4AE7F50077C62F;
+			remoteInfo = "breath app";
+		};
+		FE390F671C4AE7F50077C62F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE390F3A1C4AE7F50077C62F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE390F411C4AE7F50077C62F;
+			remoteInfo = "breath app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE390F421C4AE7F50077C62F /* breath app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "breath app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE390F461C4AE7F50077C62F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE390F481C4AE7F50077C62F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE390F491C4AE7F50077C62F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE390F4B1C4AE7F50077C62F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE390F4C1C4AE7F50077C62F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE390F4F1C4AE7F50077C62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE390F511C4AE7F50077C62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE390F541C4AE7F50077C62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE390F561C4AE7F50077C62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE390F5B1C4AE7F50077C62F /* breath appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "breath appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE390F5F1C4AE7F50077C62F /* breath_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = breath_appTests.m; sourceTree = "<group>"; };
+		FE390F611C4AE7F50077C62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE390F661C4AE7F50077C62F /* breath appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "breath appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE390F6A1C4AE7F50077C62F /* breath_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = breath_appUITests.m; sourceTree = "<group>"; };
+		FE390F6C1C4AE7F50077C62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE390F3F1C4AE7F50077C62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE390F581C4AE7F50077C62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE390F631C4AE7F50077C62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE390F391C4AE7F50077C62F = {
+			isa = PBXGroup;
+			children = (
+				FE390F441C4AE7F50077C62F /* breath app */,
+				FE390F5E1C4AE7F50077C62F /* breath appTests */,
+				FE390F691C4AE7F50077C62F /* breath appUITests */,
+				FE390F431C4AE7F50077C62F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE390F431C4AE7F50077C62F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE390F421C4AE7F50077C62F /* breath app.app */,
+				FE390F5B1C4AE7F50077C62F /* breath appTests.xctest */,
+				FE390F661C4AE7F50077C62F /* breath appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE390F441C4AE7F50077C62F /* breath app */ = {
+			isa = PBXGroup;
+			children = (
+				FE390F481C4AE7F50077C62F /* AppDelegate.h */,
+				FE390F491C4AE7F50077C62F /* AppDelegate.m */,
+				FE390F4B1C4AE7F50077C62F /* ViewController.h */,
+				FE390F4C1C4AE7F50077C62F /* ViewController.m */,
+				FE390F4E1C4AE7F50077C62F /* Main.storyboard */,
+				FE390F511C4AE7F50077C62F /* Assets.xcassets */,
+				FE390F531C4AE7F50077C62F /* LaunchScreen.storyboard */,
+				FE390F561C4AE7F50077C62F /* Info.plist */,
+				FE390F451C4AE7F50077C62F /* Supporting Files */,
+			);
+			path = "breath app";
+			sourceTree = "<group>";
+		};
+		FE390F451C4AE7F50077C62F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE390F461C4AE7F50077C62F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE390F5E1C4AE7F50077C62F /* breath appTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE390F5F1C4AE7F50077C62F /* breath_appTests.m */,
+				FE390F611C4AE7F50077C62F /* Info.plist */,
+			);
+			path = "breath appTests";
+			sourceTree = "<group>";
+		};
+		FE390F691C4AE7F50077C62F /* breath appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE390F6A1C4AE7F50077C62F /* breath_appUITests.m */,
+				FE390F6C1C4AE7F50077C62F /* Info.plist */,
+			);
+			path = "breath appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE390F411C4AE7F50077C62F /* breath app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE390F6F1C4AE7F50077C62F /* Build configuration list for PBXNativeTarget "breath app" */;
+			buildPhases = (
+				FE390F3E1C4AE7F50077C62F /* Sources */,
+				FE390F3F1C4AE7F50077C62F /* Frameworks */,
+				FE390F401C4AE7F50077C62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "breath app";
+			productName = "breath app";
+			productReference = FE390F421C4AE7F50077C62F /* breath app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE390F5A1C4AE7F50077C62F /* breath appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE390F721C4AE7F50077C62F /* Build configuration list for PBXNativeTarget "breath appTests" */;
+			buildPhases = (
+				FE390F571C4AE7F50077C62F /* Sources */,
+				FE390F581C4AE7F50077C62F /* Frameworks */,
+				FE390F591C4AE7F50077C62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE390F5D1C4AE7F50077C62F /* PBXTargetDependency */,
+			);
+			name = "breath appTests";
+			productName = "breath appTests";
+			productReference = FE390F5B1C4AE7F50077C62F /* breath appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE390F651C4AE7F50077C62F /* breath appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE390F751C4AE7F50077C62F /* Build configuration list for PBXNativeTarget "breath appUITests" */;
+			buildPhases = (
+				FE390F621C4AE7F50077C62F /* Sources */,
+				FE390F631C4AE7F50077C62F /* Frameworks */,
+				FE390F641C4AE7F50077C62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE390F681C4AE7F50077C62F /* PBXTargetDependency */,
+			);
+			name = "breath appUITests";
+			productName = "breath appUITests";
+			productReference = FE390F661C4AE7F50077C62F /* breath appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE390F3A1C4AE7F50077C62F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "vitaliy pitvalo";
+				TargetAttributes = {
+					FE390F411C4AE7F50077C62F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FE390F5A1C4AE7F50077C62F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FE390F411C4AE7F50077C62F;
+					};
+					FE390F651C4AE7F50077C62F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FE390F411C4AE7F50077C62F;
+					};
+				};
+			};
+			buildConfigurationList = FE390F3D1C4AE7F50077C62F /* Build configuration list for PBXProject "breath app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE390F391C4AE7F50077C62F;
+			productRefGroup = FE390F431C4AE7F50077C62F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE390F411C4AE7F50077C62F /* breath app */,
+				FE390F5A1C4AE7F50077C62F /* breath appTests */,
+				FE390F651C4AE7F50077C62F /* breath appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE390F401C4AE7F50077C62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE390F551C4AE7F50077C62F /* LaunchScreen.storyboard in Resources */,
+				FE390F521C4AE7F50077C62F /* Assets.xcassets in Resources */,
+				FE390F501C4AE7F50077C62F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE390F591C4AE7F50077C62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE390F641C4AE7F50077C62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE390F3E1C4AE7F50077C62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE390F4D1C4AE7F50077C62F /* ViewController.m in Sources */,
+				FE390F4A1C4AE7F50077C62F /* AppDelegate.m in Sources */,
+				FE390F471C4AE7F50077C62F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE390F571C4AE7F50077C62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE390F601C4AE7F50077C62F /* breath_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE390F621C4AE7F50077C62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE390F6B1C4AE7F50077C62F /* breath_appUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE390F5D1C4AE7F50077C62F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE390F411C4AE7F50077C62F /* breath app */;
+			targetProxy = FE390F5C1C4AE7F50077C62F /* PBXContainerItemProxy */;
+		};
+		FE390F681C4AE7F50077C62F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE390F411C4AE7F50077C62F /* breath app */;
+			targetProxy = FE390F671C4AE7F50077C62F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE390F4E1C4AE7F50077C62F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE390F4F1C4AE7F50077C62F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE390F531C4AE7F50077C62F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE390F541C4AE7F50077C62F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE390F6D1C4AE7F50077C62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE390F6E1C4AE7F50077C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE390F701C4AE7F50077C62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "breath app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaliy.breathrate.breath-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE390F711C4AE7F50077C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "breath app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaliy.breathrate.breath-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE390F731C4AE7F50077C62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "breath appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaliy.breathrate.breath-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/breath app.app/breath app";
+			};
+			name = Debug;
+		};
+		FE390F741C4AE7F50077C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "breath appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaliy.breathrate.breath-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/breath app.app/breath app";
+			};
+			name = Release;
+		};
+		FE390F761C4AE7F50077C62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "breath appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaliy.breathrate.breath-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "breath app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FE390F771C4AE7F50077C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "breath appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaliy.breathrate.breath-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "breath app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE390F3D1C4AE7F50077C62F /* Build configuration list for PBXProject "breath app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE390F6D1C4AE7F50077C62F /* Debug */,
+				FE390F6E1C4AE7F50077C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE390F6F1C4AE7F50077C62F /* Build configuration list for PBXNativeTarget "breath app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE390F701C4AE7F50077C62F /* Debug */,
+				FE390F711C4AE7F50077C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE390F721C4AE7F50077C62F /* Build configuration list for PBXNativeTarget "breath appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE390F731C4AE7F50077C62F /* Debug */,
+				FE390F741C4AE7F50077C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE390F751C4AE7F50077C62F /* Build configuration list for PBXNativeTarget "breath appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE390F761C4AE7F50077C62F /* Debug */,
+				FE390F771C4AE7F50077C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE390F3A1C4AE7F50077C62F /* Project object */;
+}
