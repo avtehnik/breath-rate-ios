@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72E7483486AE1E351F596486 /* libPods-breath app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F1B506616CDAF2A4941788 /* libPods-breath app.a */; };
+		FE19A0411C4B7F47006209E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE19A0401C4B7F47006209E8 /* Images.xcassets */; };
+		FE19A0431C4B83BC006209E8 /* bg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE19A0421C4B83BC006209E8 /* bg_2.png */; };
 		FE390F471C4AE7F50077C62F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F461C4AE7F50077C62F /* main.m */; };
 		FE390F4A1C4AE7F50077C62F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F491C4AE7F50077C62F /* AppDelegate.m */; };
 		FE390F4D1C4AE7F50077C62F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F4C1C4AE7F50077C62F /* ViewController.m */; };
 		FE390F501C4AE7F50077C62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE390F4E1C4AE7F50077C62F /* Main.storyboard */; };
-		FE390F521C4AE7F50077C62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE390F511C4AE7F50077C62F /* Assets.xcassets */; };
 		FE390F551C4AE7F50077C62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE390F531C4AE7F50077C62F /* LaunchScreen.storyboard */; };
 		FE390F601C4AE7F50077C62F /* breath_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F5F1C4AE7F50077C62F /* breath_appTests.m */; };
 		FE390F6B1C4AE7F50077C62F /* breath_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE390F6A1C4AE7F50077C62F /* breath_appUITests.m */; };
+		FE6500201C4B03F7002EF102 /* MovingAverage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE65001F1C4B03F7002EF102 /* MovingAverage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7F1B506616CDAF2A4941788 /* libPods-breath app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-breath app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34ECBF44D9CD77093575299 /* Pods-breath app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breath app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breath app/Pods-breath app.debug.xcconfig"; sourceTree = "<group>"; };
+		F59D9E7E12401EA080F741EE /* Pods-breath app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breath app.release.xcconfig"; path = "Pods/Target Support Files/Pods-breath app/Pods-breath app.release.xcconfig"; sourceTree = "<group>"; };
+		FE19A0401C4B7F47006209E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE19A0421C4B83BC006209E8 /* bg_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_2.png; sourceTree = "<group>"; };
 		FE390F421C4AE7F50077C62F /* breath app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "breath app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE390F461C4AE7F50077C62F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE390F481C4AE7F50077C62F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +50,6 @@
 		FE390F4B1C4AE7F50077C62F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FE390F4C1C4AE7F50077C62F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FE390F4F1C4AE7F50077C62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE390F511C4AE7F50077C62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE390F541C4AE7F50077C62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE390F561C4AE7F50077C62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE390F5B1C4AE7F50077C62F /* breath appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "breath appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +58,8 @@
 		FE390F661C4AE7F50077C62F /* breath appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "breath appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE390F6A1C4AE7F50077C62F /* breath_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = breath_appUITests.m; sourceTree = "<group>"; };
 		FE390F6C1C4AE7F50077C62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE65001E1C4B03F7002EF102 /* MovingAverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingAverage.h; sourceTree = "<group>"; };
+		FE65001F1C4B03F7002EF102 /* MovingAverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingAverage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E7483486AE1E351F596486 /* libPods-breath app.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CA0A6118A541D8523F904B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E34ECBF44D9CD77093575299 /* Pods-breath app.debug.xcconfig */,
+				F59D9E7E12401EA080F741EE /* Pods-breath app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61EC7AFDD16DCBD19B9A79FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7F1B506616CDAF2A4941788 /* libPods-breath app.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE390F391C4AE7F50077C62F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				FE390F5E1C4AE7F50077C62F /* breath appTests */,
 				FE390F691C4AE7F50077C62F /* breath appUITests */,
 				FE390F431C4AE7F50077C62F /* Products */,
+				1CA0A6118A541D8523F904B5 /* Pods */,
+				61EC7AFDD16DCBD19B9A79FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +130,17 @@
 		FE390F441C4AE7F50077C62F /* breath app */ = {
 			isa = PBXGroup;
 			children = (
+				FE65001E1C4B03F7002EF102 /* MovingAverage.h */,
+				FE65001F1C4B03F7002EF102 /* MovingAverage.m */,
 				FE390F481C4AE7F50077C62F /* AppDelegate.h */,
 				FE390F491C4AE7F50077C62F /* AppDelegate.m */,
 				FE390F4B1C4AE7F50077C62F /* ViewController.h */,
 				FE390F4C1C4AE7F50077C62F /* ViewController.m */,
 				FE390F4E1C4AE7F50077C62F /* Main.storyboard */,
-				FE390F511C4AE7F50077C62F /* Assets.xcassets */,
+				FE19A0421C4B83BC006209E8 /* bg_2.png */,
 				FE390F531C4AE7F50077C62F /* LaunchScreen.storyboard */,
 				FE390F561C4AE7F50077C62F /* Info.plist */,
+				FE19A0401C4B7F47006209E8 /* Images.xcassets */,
 				FE390F451C4AE7F50077C62F /* Supporting Files */,
 			);
 			path = "breath app";
@@ -147,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE390F6F1C4AE7F50077C62F /* Build configuration list for PBXNativeTarget "breath app" */;
 			buildPhases = (
+				09098B02A18B34E127114D52 /* Check Pods Manifest.lock */,
 				FE390F3E1C4AE7F50077C62F /* Sources */,
 				FE390F3F1C4AE7F50077C62F /* Frameworks */,
 				FE390F401C4AE7F50077C62F /* Resources */,
+				C80A5356F8772D76E218A433 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +241,7 @@
 				TargetAttributes = {
 					FE390F411C4AE7F50077C62F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KF4XWP78H8;
 					};
 					FE390F5A1C4AE7F50077C62F = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,8 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE19A0411C4B7F47006209E8 /* Images.xcassets in Resources */,
+				FE19A0431C4B83BC006209E8 /* bg_2.png in Resources */,
 				FE390F551C4AE7F50077C62F /* LaunchScreen.storyboard in Resources */,
-				FE390F521C4AE7F50077C62F /* Assets.xcassets in Resources */,
 				FE390F501C4AE7F50077C62F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,12 +301,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09098B02A18B34E127114D52 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C80A5356F8772D76E218A433 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-breath app/Pods-breath app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE390F3E1C4AE7F50077C62F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FE390F4D1C4AE7F50077C62F /* ViewController.m in Sources */,
+				FE6500201C4B03F7002EF102 /* MovingAverage.m in Sources */,
 				FE390F4A1C4AE7F50077C62F /* AppDelegate.m in Sources */,
 				FE390F471C4AE7F50077C62F /* main.m in Sources */,
 			);
@@ -411,23 +481,33 @@
 		};
 		FE390F701C4AE7F50077C62F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34ECBF44D9CD77093575299 /* Pods-breath app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "breath app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaliy.breathrate.breath-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliy.breathrate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FE390F711C4AE7F50077C62F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59D9E7E12401EA080F741EE /* Pods-breath app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "breath app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaliy.breathrate.breath-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliy.breathrate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +578,7 @@
 				FE390F711C4AE7F50077C62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE390F721C4AE7F50077C62F /* Build configuration list for PBXNativeTarget "breath appTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +587,7 @@
 				FE390F741C4AE7F50077C62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE390F751C4AE7F50077C62F /* Build configuration list for PBXNativeTarget "breath appUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +596,7 @@
 				FE390F771C4AE7F50077C62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
