@@ -5,7 +5,7 @@ Measure your breath rate using accelerometer
 
 https://www.facebook.com/GDGCherkasy/posts/485540378303056
 https://www.facebook.com/GDGCherkasy/posts/485527901637637
-
+https://www.facebook.com/hashtag/healthtech_hackathon_columbus
 
 ![alt tag](https://github.com/avtehnik/breath-rate-ios/blob/master/photos/pict1.png?raw=true)
 ![alt tag](https://github.com/avtehnik/breath-rate-ios/blob/master/photos/pict2.png?raw=true)
